@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,6 +48,18 @@
       width: 100px;
       border-radius: 6px;
     }
+    .cores {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 10px 0;
+    }
+    .cores span {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+    }
     .produto h3 {
       margin: 10px 0 5px;
     }
@@ -90,9 +101,7 @@
 <body>
   <header>
     <img src="logo_vf_concept.png" alt="Logo VF Concept">
-  </header>
-
-  <h1>Produtos VF Concept</h1>
+  </header>  <h1>Produtos VF Concept</h1>
   <section class="produtos">
     <div class="produto">
       <div class="galeria">
@@ -102,60 +111,48 @@
       </div>
       <h3>Óculos Estiloso</h3>
       <p>Design moderno com proteção UV.</p>
+      <div class="cores">
+        <span style="background-color: black;"></span>
+        <span style="background-color: gray;"></span>
+        <span style="background-color: white; border: 1px solid #ccc;"></span>
+      </div>
       <p><strong>R$ 99,90</strong></p>
       <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Óculos%20Estiloso">Comprar</a>
-    </div>
+    </div><div class="produto">
+  <div class="galeria">
+    <img src="https://via.placeholder.com/250x200?text=Frente" alt="Copo - Frente">
+    <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Copo - Lateral">
+    <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Copo - Detalhe">
+  </div>
+  <h3>Copo Personalizado</h3>
+  <p>Copo de acrílico com arte exclusiva.</p>
+  <div class="cores">
+    <span style="background-color: red;"></span>
+    <span style="background-color: blue;"></span>
+    <span style="background-color: white; border: 1px solid #ccc;"></span>
+  </div>
+  <p><strong>R$ 29,90</strong></p>
+  <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Copo%20Personalizado">Comprar</a>
+</div>
 
-    <div class="produto">
-      <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Copo - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Copo - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Copo - Detalhe">
-      </div>
-      <h3>Copo Personalizado</h3>
-      <p>Copo de acrílico com arte exclusiva.</p>
-      <p><strong>R$ 29,90</strong></p>
-      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Copo%20Personalizado">Comprar</a>
-    </div>
+<div class="produto">
+  <div class="galeria">
+    <img src="https://via.placeholder.com/250x200?text=Frente" alt="Boné - Frente">
+    <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Boné - Lateral">
+    <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Boné - Detalhe">
+  </div>
+  <h3>Boné VF Classic</h3>
+  <p>Boné com ajuste e bordado frontal.</p>
+  <div class="cores">
+    <span style="background-color: green;"></span>
+    <span style="background-color: black;"></span>
+    <span style="background-color: yellow;"></span>
+  </div>
+  <p><strong>R$ 59,90</strong></p>
+  <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Boné%20VF%20Classic">Comprar</a>
+</div>
 
-    <div class="produto">
-      <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Boné - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Boné - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Boné - Detalhe">
-      </div>
-      <h3>Boné VF Classic</h3>
-      <p>Boné com ajuste e bordado frontal.</p>
-      <p><strong>R$ 59,90</strong></p>
-      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Boné%20VF%20Classic">Comprar</a>
-    </div>
-
-    <div class="produto">
-      <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Calça - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Calça - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Calça - Detalhe">
-      </div>
-      <h3>Calça Jogger</h3>
-      <p>Conforto e estilo no dia a dia.</p>
-      <p><strong>R$ 119,90</strong></p>
-      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20a%20Calça%20Jogger">Comprar</a>
-    </div>
-
-    <div class="produto">
-      <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Camisa - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Camisa - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Camisa - Detalhe">
-      </div>
-      <h3>Camisa Casual</h3>
-      <p>Perfeita pra qualquer ocasião.</p>
-      <p><strong>R$ 79,90</strong></p>
-      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20a%20Camisa%20Casual">Comprar</a>
-    </div>
-  </section>
-
-  <section class="avaliacoes">
+  </section>  <section class="avaliacoes">
     <h2>O que nossos clientes dizem</h2>
     <div class="avaliacao">
       “Chegou super rápido, e a qualidade é surreal!” — João P.
@@ -163,18 +160,14 @@
     <div class="avaliacao">
       “Amei o boné, uso todo dia. Vou comprar mais!” — Ana M.
     </div>
-  </section>
-
-  <section class="redes-sociais">
+  </section>  <section class="redes-sociais">
     <h2>Nos acompanhe nas redes</h2>
     <div class="social-links">
       <a href="#">Instagram</a>
       <a href="#">WhatsApp</a>
       <a href="#">TikTok</a>
     </div>
-  </section>
-
-  <footer>
+  </section>  <footer>
     VF Concept © 2025 - Todos os direitos reservados<br>
     Contato: vfconcept8@gmail.com
   </footer>
