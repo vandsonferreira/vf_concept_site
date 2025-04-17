@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VF Imports</title>
-  <meta name="description" content="VF Imports - Roupas, bonés, óculos e copos personalizados com estilo urbano e moderno.">
   <style>
     body {
       margin: 0;
@@ -39,15 +38,17 @@
       width: 250px;
       text-align: center;
     }
-    .galeria {
+    .produto .galeria {
       display: flex;
-      gap: 10px;
-      overflow-x: auto;
+      gap: 5px;
+      justify-content: center;
       margin-bottom: 10px;
     }
     .galeria img {
-      width: 100px;
-      border-radius: 6px;
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
     }
     .produto h3 {
       margin: 10px 0 5px;
@@ -64,97 +65,75 @@
       text-decoration: none;
       border-radius: 5px;
     }
-    .avaliacoes, .redes-sociais {
-      padding: 30px 20px;
-      text-align: center;
-      background-color: #f5f5f5;
-    }
-    .avaliacao {
-      max-width: 500px;
-      margin: 0 auto 20px;
-      font-style: italic;
-    }
-    .social-links a {
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9rem;
-      background-color: #000;
-      color: #fff;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo_vf_imports.png" alt="Logo VF Imports">
+    <img src="logo.png" alt="Logo VF Imports">
   </header>
 
   <h1>Produtos VF Imports</h1>
   <section class="produtos">
     <div class="produto">
       <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Óculos - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Óculos - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Óculos - Detalhe">
+        <img src="https://via.placeholder.com/70x70" alt="Óculos 1">
+        <img src="https://via.placeholder.com/70x70" alt="Óculos 2">
       </div>
       <h3>Óculos Estiloso</h3>
       <p>Design moderno com proteção UV.</p>
       <p><strong>R$ 99,90</strong></p>
-      <a class="botao" href="#">Comprar via WhatsApp</a>
+      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20%C3%93culos%20Estiloso">Comprar</a>
     </div>
-
     <div class="produto">
       <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Copo - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Copo - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Copo - Detalhe">
+        <img src="https://via.placeholder.com/70x70" alt="Copo">
       </div>
       <h3>Copo Personalizado</h3>
       <p>Copo de acrílico com arte exclusiva.</p>
       <p><strong>R$ 29,90</strong></p>
-      <a class="botao" href="#">Comprar via WhatsApp</a>
+      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Copo%20Personalizado">Comprar</a>
     </div>
-
     <div class="produto">
       <div class="galeria">
-        <img src="https://via.placeholder.com/250x200?text=Frente" alt="Boné - Frente">
-        <img src="https://via.placeholder.com/250x200?text=Lateral" alt="Boné - Lateral">
-        <img src="https://via.placeholder.com/250x200?text=Detalhe" alt="Boné - Detalhe">
+        <img src="https://via.placeholder.com/70x70" alt="Boné 1">
+        <img src="https://via.placeholder.com/70x70" alt="Boné 2">
       </div>
       <h3>Boné VF Classic</h3>
       <p>Boné com ajuste e bordado frontal.</p>
       <p><strong>R$ 59,90</strong></p>
-      <a class="botao" href="#">Comprar via WhatsApp</a>
+      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20o%20Bon%C3%A9%20VF%20Classic">Comprar</a>
     </div>
-  </section>
-
-  <section class="avaliacoes">
-    <h2>O que nossos clientes dizem</h2>
-    <div class="avaliacao">
-      “Produto excelente! Chegou antes do prazo e com muita qualidade.” — João P.
+    <div class="produto">
+      <div class="galeria">
+        <img src="https://via.placeholder.com/70x70" alt="Calça 1">
+        <img src="https://via.placeholder.com/70x70" alt="Calça 2">
+      </div>
+      <h3>Calça Jogger</h3>
+      <p>Conforto e estilo no dia a dia.</p>
+      <p><strong>R$ 119,90</strong></p>
+      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20a%20Cal%C3%A7a%20Jogger">Comprar</a>
     </div>
-    <div class="avaliacao">
-      “A qualidade me surpreendeu. Super recomendo!” — Ana M.
-    </div>
-  </section>
-
-  <section class="redes-sociais">
-    <h2>Siga a VF Imports nas redes</h2>
-    <div class="social-links">
-      <a href="#">Instagram</a>
-      <a href="#">WhatsApp</a>
-      <a href="#">TikTok</a>
+    <div class="produto">
+      <div class="galeria">
+        <img src="https://via.placeholder.com/70x70" alt="Camisa 1">
+        <img src="https://via.placeholder.com/70x70" alt="Camisa 2">
+      </div>
+      <h3>Camisa Casual</h3>
+      <p>Perfeita pra qualquer ocasião.</p>
+      <p><strong>R$ 79,90</strong></p>
+      <a class="botao" href="https://wa.me/SEUNUMERO?text=Quero%20comprar%20a%20Camisa%20Casual">Comprar</a>
     </div>
   </section>
 
   <footer>
-    © 2025 VF Imports - Todos os direitos reservados<br>
-    Contato: vfconcept01@gmail.com
+    <p>Contato: vfimports@gmail.com</p>
+    <p>Siga nas redes sociais: <strong>@vf_imports</strong></p>
+    <p>© 2025 VF Imports - todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
